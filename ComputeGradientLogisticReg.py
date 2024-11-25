@@ -2,7 +2,7 @@ import math
 import numpy as np
 
 def sigmoid(z_i) :
-    return 1/(1+math.exp(-z_i))
+    return 1/(1+np.exp(-z_i))
 
 
 def compute_gradient_logistic_reg(X, y, w, b, lambda_): 
