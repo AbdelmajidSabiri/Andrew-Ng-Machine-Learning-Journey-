@@ -2,7 +2,7 @@ import numpy as np
 import math
 
 def sigmoid(z_i) :
-    return 1/(1+math.exp(-z_i))
+    return 1/(1+np.exp(-z_i))
 
 
 def compute_cost_logistic_reg(X, y, w, b, lambda_ = 1):
